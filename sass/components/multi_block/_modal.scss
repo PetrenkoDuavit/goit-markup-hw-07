@@ -129,6 +129,7 @@
     left: 15px;
     top: calc(50% - 3px);
     transform: translateY(-50%);
+    transition: fill 250ms var(--time-function);
   }
 
   &__label-checkbox {

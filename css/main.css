@@ -826,6 +826,8 @@ ul {
   top: calc(50% - 3px);
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  -webkit-transition: fill 250ms var(--time-function);
+  transition: fill 250ms var(--time-function);
 }
 .modal__label-checkbox {
   display: -webkit-box;
